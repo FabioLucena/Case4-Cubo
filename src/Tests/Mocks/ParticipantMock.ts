@@ -1,4 +1,4 @@
-import Participant from "../../src/Model/Participant"
+import Participant from "../../Model/Participant"
 
 const participant = {
     id: "001",

@@ -12,6 +12,8 @@ app.use(cors());
 
 app.use("/participant", participantRouter)
 
+const { PORT = 3003 } = process.env
+
 const server = app.listen(3003, () => {
     if (server) {
       const address = server.address() as AddressInfo;
