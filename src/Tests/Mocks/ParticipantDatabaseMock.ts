@@ -1,4 +1,4 @@
-import Participant from "../../src/Model/Participant"
+import Participant from "../../Model/Participant"
 import { participantMock } from "./ParticipantMock"
 
 export default class ParticipantDatabaseMock{

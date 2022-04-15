@@ -1,7 +1,10 @@
-import { Request, Response } from "express";
+
+import { Request } from "express";
+import { Response } from "express";
 import ParticipantBusiness from "../Business/ParticipantBusiness";
 import ParticipantDatabase from "../Data/ParticipantDatabase";
 import { participantDTO } from "../Model/Participant";
+
 
 export default class ParticipantController {
     private participantBusiness: ParticipantBusiness

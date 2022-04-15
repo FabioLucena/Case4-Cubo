@@ -1,4 +1,4 @@
-import ParticipantBusiness from "../src/Business/ParticipantBusiness";
+import ParticipantBusiness from "../Business/ParticipantBusiness";
 import ParticipantDatabaseMock from "./Mocks/ParticipantDatabaseMock";
 import { participantMock } from "./Mocks/ParticipantMock";
 
