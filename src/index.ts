@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
 import cors from "cors";
 import { AddressInfo } from "net";
-// import express from "express";
+import express from "express";
 import { participantRouter } from "./Routes/ParticipantRouter";
-const express = require("express");
+
 
 dotenv.config();
 const app = express();
