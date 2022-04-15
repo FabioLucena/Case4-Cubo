@@ -3,6 +3,7 @@ import ParticipantBusiness from "../Business/ParticipantBusiness";
 import ParticipantDatabase from "../Data/ParticipantDatabase";
 import { participantDTO } from "../Model/Participant";
 
+
 export default class ParticipantController {
     private participantBusiness: ParticipantBusiness
 
